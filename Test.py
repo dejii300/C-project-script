@@ -417,7 +417,7 @@ class Main:
 		print("\033[1;32m [1] First You Subscribe Channel")
 		print("\033[1;33m [2] Exit")
 		print("")
-		DE-JII = input("\n\033[1;36m  Chose ==> \033[1;32m")
+		DE-JII == input("\n\033[1;36m  Chose ==> \033[1;32m")
 		if DE-JII in ["", " "]:
 			exit()
 		elif DE-JII in ["2", "02"]:
